@@ -1,0 +1,22 @@
+.w-100v {
+  width: 100vw;
+}
+.h-100v {
+  height: 100vh;
+}
+.full-screen {
+  @extend .w-100v;
+  @extend .h-100v;
+}
+
+.w-100p {
+  width: 100%;
+}
+
+.h-100p {
+  height: 100%;
+}
+.full-percent {
+  @extend .w-100p;
+  @extend .h-100p;
+}

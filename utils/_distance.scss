@@ -1,0 +1,20 @@
+.no-padding {
+  padding: 0 !important;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+@for $i from 1 through 6 {
+  .padding-#{$i} {padding: 4px * $i !important;}
+  .padding-t-#{$i} {padding-top: 4px * $i !important;}
+  .padding-r-#{$i} {padding-right: 4px * $i !important;}
+  .padding-b-#{$i} {padding-bottom: 4px * $i !important;}
+  .padding-l-#{$i} {padding-left: 4px * $i !important;}
+  .margin-#{$i} {margin: 4px * $i !important;}
+  .margin-t-#{$i} {margin-top: 4px * $i !important;}
+  .margin-r-#{$i} {margin-right: 4px * $i !important;}
+  .margin-b-#{$i} {margin-bottom: 4px * $i !important;}
+  .margin-l-#{$i} {margin-left: 4px * $i !important;}
+}
