@@ -1,6 +1,6 @@
 {
   "name": "@babycan/atom-css",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "atom css base easy fast",
   "main": "index.js",
   "scripts": {
